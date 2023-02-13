@@ -20,16 +20,12 @@
 
   <div class="floating_image w">
     <div class="floating_picture" data-aos="fade-left">
-      <div class="slider_container">
-        <div></div>
-        <div class="sliders">
-          <img src="images/items/pic9.jpg" height="400px" width="250px" alt="">
-          <img src="images/items/pic2.jpg" height="400px" alt="">
-          <img src="images/items/pic35.jpg" height="400px" alt="">
-          <img src="images/items/pic22.jpg" height="400px" width="350px" alt="">
-        </div>
-      </div>
+            <div class="slider_container">
+              <div class="abt_pic"><img src="images/items/pic9.jpg" height="400px" width="350px" alt=""></div>
+            </div>
     </div>
+
+
     <div class="floating_text e" data-aos="fade-right"><span class="floating_text1">Exciting Facts About Us</span><br>
       <br>
       <p class="floating_text_header">ECHELINKS</p>

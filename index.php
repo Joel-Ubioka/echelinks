@@ -118,9 +118,13 @@
 
   <div data-aos="fade-up">
     <h2 class="recent_products">Our Recent Products</h2><br>
+      
+    <div class="img_position">
+      <img src="images/items/pic11.jpg" height="400px" width="400px" alt="">
+    </div>
   </div>
 
-
+<!-- 
 
   <div class="floating_picture a102" data-aos="fade-up">
     <div class="slider_container a101">
@@ -173,7 +177,7 @@
       </div>
     </div>
   </div>
-
+ -->
 
 
   <!-- Contact Info -->
@@ -294,9 +298,6 @@
       </div>
     </div>
   </div>
-
-
-
 
   <div class="floating_image" id="lhs_function" data-aos="fade-up">
     <div class="floating_picture1">

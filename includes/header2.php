@@ -6,7 +6,7 @@
 
    <ul class="menu_item">
        <li id="product_dropdown_div12"><a href="index.php"><button class="Courses_buttons">Home</button></a></li>
-       <div class="product_dropdown_div" id="product_dropdown_div"><li><a href="product.php"><button class="Courses_buttons1" >Our Product <i class="fa-solid b222 fa-arrow-down"></i></button></a></li>
+       <div class="product_dropdown_div" id="product_dropdown_div"><li><a href="product.php"><button class="Courses_buttons1" >Our Product</button></a></li>
 
     </div>
        <li id="product_dropdown_div13"><a href="about_us.php"><button class="Courses_buttons">About</button></a></li>
@@ -23,7 +23,7 @@
 
  <ul class="dropdown_item" id="dropdown_menu">
        <li id="off1" ><a href="index.php" >Home</a></li>
-       <li><div id="product_hb">Our Product</div><i class="fa-solid fa-arrow-down"></i></li>
+       <li><div id="product_hb">Our Product</div></li>
        <li id="off" ><a href="about_us.php" >About Us</a></li>
        <li><a href="contact_us.php">Contact Us</a></li>
    </ul>

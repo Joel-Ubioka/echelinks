@@ -459,6 +459,13 @@
 
 
   /*Responsive Media Querry*/
+  @media only screen and (max-width:1383px)
+  {
+  .What_We_Do{
+    flex-wrap: wrap;
+  }
+}
+
   @media only screen and (min-width:1200px)
   {
     
@@ -524,6 +531,7 @@
     .Contact_info 
 {
     flex-wrap: wrap;
+    margin: auto;
 }
 
 .Contact_info1 
@@ -629,15 +637,16 @@ margin-right: 400px;
     display: flex;
 }
 .What_We_Do{
-    display: flex;
+  display: flex;
+  margin: auto;
 }
 
 }
 
-@media only screen and (max-width:744px) {
+@media only screen and (max-width:768px) {
     .floating_picture{
         
-        margin-bottom: -40px;
+        margin-bottom: -250px;
     }
 
     .floating_text
@@ -703,9 +712,7 @@ margin-right: 400px;
 
 @media only screen and (min-width:594px) {
 
-    .w{
-        display: flex;
-    }
+    
 
     .dropdown_item1110
     {
@@ -713,6 +720,7 @@ margin-right: 400px;
         right: 37px;
     }
     
+   
     
 }
 
@@ -743,11 +751,30 @@ margin-right: 400px;
     {
          font-size: 8em;
     }
+
+     .abt_pic
+    {
+        width: 300px;
+        margin-left: -20px;
+    }
+
+    .floating_picture{
+        
+        margin-bottom: -40px;
+    }
 }
 
+@media only screen and (max-width:768px)
+{
+    .w{
+        display: grid;
+        margin-bottom: 300px;
+    }
+   
+    
+}
 
-
-@media only screen and (max-width:710px)
+@media only screen and (max-width:800px)
  {
    .header_container .menu_item
    {
@@ -795,10 +822,10 @@ margin-right: 400px;
 
 @media only screen and (max-width:592px)
 {
-    .w
+    /* .w
     {
         display: grid;
-    }
+    } */
     .hide_phone
     {
         display: none;
@@ -1096,10 +1123,10 @@ margin-right: 400px;
          width: 320px;
          height: 285px;
          background-color: whitesmoke;
-         margin: 10px 20px;
+         margin: 10px 10px;
          overflow: hidden;
          text-align: center;
-         display: flex;
+          display: block;
      }
 
      .services
@@ -1130,7 +1157,13 @@ margin-right: 400px;
          display: flex;
        
          flex-basis: 300px;
-         margin-top: -270px;
+         margin-top: 0px;
+     }
+
+     .img_position
+     {
+        margin-left: auto;
+        margin-right: auto;
      }
  
      .contact_items
@@ -1171,8 +1204,9 @@ margin-right: 400px;
 
     .What_We_Do > div
     {
-    text-align: left;
+    text-align: center;
     padding: 0px;
+    margin: auto;
     }
 
     .Creative_services
